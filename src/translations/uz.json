@@ -1,3 +1,9 @@
 {
-    "language": "Til tanlash"
+    "language": "Til tanlash",
+    "navbar.consultation": "Shifokorlarning maslahati",
+    "navbar.catalog": "Katalog xizmati",
+    "navbar.aboutProject": "Dastur haqida",
+    "navbar.partnership": "Hamkorlik",
+    "navbar.contacts": "Aloqa",
+    "navbar.enter": "Kirish / Ro'yxatdan o'tish"
 }

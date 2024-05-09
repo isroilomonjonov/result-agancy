@@ -56,10 +56,10 @@ const Navbar = () => {
         ])
     }, [ctx])
     return (
-        <div>
-            <div className='container flex justify-between'>
+        <div className='container'>
+            <div className='flex justify-between mb-4'>
                 <Select defaultValue='tashkent'>
-                    <SelectTrigger className="w-[180px] border-none focus:ring-transparent">
+                    <SelectTrigger className="w-[180px] border-none focus:ring-transparent bg-transparent">
                         <SelectValue placeholder="Select a City" />
                     </SelectTrigger>
                     <SelectContent>
@@ -76,7 +76,7 @@ const Navbar = () => {
                     </SelectContent>
                 </Select>
                 <Select onValueChange={(e) => ctx.changeLanguage({ language: e })} defaultValue='ru'>
-                    <SelectTrigger className="w-[180px] border-none focus:ring-transparent">
+                    <SelectTrigger className="w-[180px] border-none focus:ring-transparent bg-transparent">
                         <SelectValue placeholder="Select a Language" />
                     </SelectTrigger>
                     <SelectContent>
@@ -102,6 +102,36 @@ const Navbar = () => {
                     </SelectContent>
                 </Select>
 
+            </div>
+            <div className='flex justify-between gap-4'>
+                <div className='p-8 px-14 bg-white flex rounded-2xl gap-5'>
+                    <img src="/logo.svg" alt="logo" />
+                    <p className='text-[#747474] text-[14px] w-[103px]'>
+                        <FormattedMessage id="navbar.consultation" />
+                    </p>
+                </div>
+                <div className='flex cursor-pointer items-center rounded-2xl gap-3 py-8 px-8 bg-[#0129E3]'>
+                    <img className='w-[16px] h-[16px]' src="/apps.svg" alt="apps" />
+                    <p className='text-white font-medium'>
+                        <FormattedMessage id="navbar.catalog" />
+                    </p>
+                </div>
+                <div className='p-8 px-8 flex items-center bg-white rounded-2xl'>
+                    <ul className='flex items-center justify-center gap-6 bg-white'>
+                        <li className='text-[#747474] font-medium border-b border-transparent hover:border-black hover:text-black'>
+                            <a href="#"><FormattedMessage id="navbar.aboutProject" /></a>
+                        </li>
+                        <li className='text-[#747474] font-medium border-b border-transparent hover:border-black hover:text-black'>
+                            <a href="#"><FormattedMessage id="navbar.partnership" /></a>
+                        </li>
+                        <li className='text-[#747474] font-medium border-b border-transparent hover:border-black hover:text-black'>
+                            <a href="#"><FormattedMessage id="navbar.contacts" /></a>
+                        </li>
+                    </ul>
+                </div>
+                <div className='flex cursor-pointer items-center rounded-2xl gap-3 py-8 px-10 bg-white'>
+                    <p className='text-[#0129E3] font-medium'><FormattedMessage id="navbar.enter" /></p>
+                </div>
             </div>
         </div>
     )

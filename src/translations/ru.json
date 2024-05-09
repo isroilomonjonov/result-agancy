@@ -1,3 +1,9 @@
 {
-    "language": "Выбор языка"
+    "language": "Выбор языка",
+    "navbar.catalog": "Каталог услуг",
+    "navbar.consultation": "Консультация от врачей",
+    "navbar.aboutProject": "О проекте",
+    "navbar.partnership": "Партнерство",
+    "navbar.contacts": "Контакты",
+    "navbar.enter": "Вход / Регистрация"
 }
