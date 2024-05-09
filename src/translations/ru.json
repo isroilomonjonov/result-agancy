@@ -5,5 +5,13 @@
     "navbar.aboutProject": "О проекте",
     "navbar.partnership": "Партнерство",
     "navbar.contacts": "Контакты",
-    "navbar.enter": "Вход / Регистрация"
+    "navbar.enter": "Вход / Регистрация",
+    "hero.title": "Получайте бесплатную консультацию от лучших специалистов",
+    "hero.bestConsultants": "Лучшие консультанты",
+    "hero.giveQuestion": "Задать вопрос",
+    "hero.popularQuestion": "Популярные вопросы",
+    "hero.manyTypeJob": "Врачей различных специализаций ",
+    "hero.useMedicine": "Доступ к медицинской помощи",
+    "hero.positiveFeedback": "Положительных отзывов",
+    "hero.userProfiles": "Анкет пользователей"
 }

@@ -4,3 +4,8 @@
 body {
   background: rgba(248, 248, 248, 1);
 }
+.hero {
+  background: url(/question.svg) right top no-repeat,
+    linear-gradient(135deg, #379ff2 1.53%, #022fe4 90.79%);
+  padding: 30px;
+}

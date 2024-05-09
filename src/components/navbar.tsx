@@ -56,7 +56,7 @@ const Navbar = () => {
         ])
     }, [ctx])
     return (
-        <div className='container'>
+        <div className='container mb-5 mt-2'>
             <div className='flex justify-between mb-4'>
                 <Select defaultValue='tashkent'>
                     <SelectTrigger className="w-[180px] border-none focus:ring-transparent bg-transparent">
@@ -104,19 +104,19 @@ const Navbar = () => {
 
             </div>
             <div className='flex justify-between gap-4'>
-                <div className='p-7 pr-14 bg-white flex rounded-2xl gap-5'>
+                <div className='p-5 pr-14 bg-white flex rounded-2xl gap-5'>
                     <img src="/logo.svg" alt="logo" />
                     <p className='text-[#747474] text-[14px] w-[103px]'>
                         <FormattedMessage id="navbar.consultation" />
                     </p>
                 </div>
-                <div className='flex cursor-pointer items-center rounded-2xl gap-3 p-7 px-14 bg-[#0129E3]'>
+                <div className='flex cursor-pointer items-center rounded-2xl gap-3 p-5 px-14 bg-[#0129E3]'>
                     <img className='w-[16px] h-[16px]' src="/apps.svg" alt="apps" />
                     <p className='text-white font-medium'>
                         <FormattedMessage id="navbar.catalog" />
                     </p>
                 </div>
-                <div className='p-7 px-10 flex items-center bg-white rounded-2xl'>
+                <div className='p-5 px-10 flex items-center bg-white rounded-2xl'>
                     <ul className='flex items-center justify-center gap-6 bg-white'>
                         <li className='text-[#747474] font-medium border-b border-transparent hover:border-black hover:text-black'>
                             <a href="#"><FormattedMessage id="navbar.aboutProject" /></a>
@@ -129,7 +129,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='flex cursor-pointer items-center rounded-2xl gap-3 p-7  bg-white'>
+                <div className='flex cursor-pointer items-center rounded-2xl gap-3 p-5  bg-white'>
                     <p className='text-[#0129E3] font-medium'><FormattedMessage id="navbar.enter" /></p>
                 </div>
             </div>
