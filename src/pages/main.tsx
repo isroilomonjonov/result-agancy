@@ -2,7 +2,6 @@ import Answers from '@/components/answers'
 import Filter from '@/components/filter'
 import Hero from '@/components/hero'
 import Layout from '@/components/layout'
-import React from 'react'
 
 const Main = () => {
     return (
