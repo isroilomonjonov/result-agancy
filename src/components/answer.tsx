@@ -2,8 +2,6 @@ import React from 'react'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from './ui/accordion'
 
 const AnswerCard = ({ type }: { type: "men" | "women" }) => {
-    console.log(type === 'men');
-
     return (
         <div className='bg-white rounded-3xl '>
             <div className='answer-top flex justify-between items-center py-4 px-6 rounded-t-3xl text-white'>
