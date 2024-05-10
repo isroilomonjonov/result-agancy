@@ -9,3 +9,12 @@ body {
     linear-gradient(135deg, #379ff2 1.53%, #022fe4 90.79%);
   padding: 30px;
 }
+.answer-top {
+  background: linear-gradient(135deg, #379ff2 1.53%, #022fe4 90.79%);
+}
+.answer-card {
+  border-radius: 14px 0px 14px 14px;
+}
+.answer-card-doc {
+  border-radius: 0px 14px 14px 14px;
+}
