@@ -110,7 +110,7 @@ const Navbar = () => {
                         <FormattedMessage id="navbar.consultation" />
                     </p>
                 </div>
-                <div className='flex cursor-pointer items-center rounded-2xl gap-3 p-5 px-14 bg-[#0129E3]'>
+                <div className='flex cursor-pointer items-center rounded-2xl gap-3 p-5 px-14 bg-[#0129E3]  hover:opacity-80'>
                     <img className='w-[16px] h-[16px]' src="/apps.svg" alt="apps" />
                     <p className='text-white font-medium'>
                         <FormattedMessage id="navbar.catalog" />
@@ -129,7 +129,7 @@ const Navbar = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='flex cursor-pointer items-center rounded-2xl gap-3 p-5  bg-white'>
+                <div className='flex cursor-pointer items-center rounded-2xl gap-3 p-5 bg-white hover:bg-slate-100'>
                     <p className='text-[#0129E3] font-medium'><FormattedMessage id="navbar.enter" /></p>
                 </div>
             </div>
